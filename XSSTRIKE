@@ -36,4 +36,4 @@ sudo python3 xsstrike.py
 
 
 
-//DOM vulnerabilities found: instanceof, setImmediate,  
+//DOM vulnerabilities found: setInterval, setImmediate,  
