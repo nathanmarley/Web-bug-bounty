@@ -17,19 +17,19 @@ apt-get install pip
 sudo python3 xsstrike.py 
 
 
-@/home/aiko/XSStrike# sudo python3 xsstrike.py -u https://carechoice.elmotalent.com.au/ --crawl
+@/home/aiko/XSStrike# sudo python3 xsstrike.py -u (web page) --crawl
 
 
-@/home/aiko/XSStrike# sudo python3 xsstrike.py -u https://carechoice.elmotalent.com.au/ --fuzzer
+@/home/aiko/XSStrike# sudo python3 xsstrike.py -u (web page) --fuzzer
 
 
-@/home/aiko/XSStrike# sudo python3 xsstrike.py -u https://carechoice.elmotalent.com.au/search?q=forgotpassword --fuzzer
+@/home/aiko/XSStrike# sudo python3 xsstrike.py -u (web page) --fuzzer
 
 
-@/home/aiko/XSStrike# sudo python3 xsstrike.py -u https://carechoice.elmotalent.com.au/ --params
+@/home/aiko/XSStrike# sudo python3 xsstrike.py -u (web page) --params
 
 
-@/home/aiko/XSStrike# sudo python3 xsstrike.py -u https://carechoice.elmotalent.com.au/ --json
+@/home/aiko/XSStrike# sudo python3 xsstrike.py -u (web page) --json
 
 
 @/home/aiko/XSStrike# sudo python3 xsstrike.py -u https://carechoice.elmotalent.com.au/ --blind
